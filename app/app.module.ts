@@ -4,10 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AuthFormModule } from './auth-form/auth-form.module';
 
 import { AppComponent } from './app.component';
+import { AuthRememberComponent } from './auth-form/auth-remember.component';
+import { AuthMessageComponent } from './auth-form/auth-message.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
